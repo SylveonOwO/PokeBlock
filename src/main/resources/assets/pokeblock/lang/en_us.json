@@ -1,0 +1,10 @@
+{
+  "item.pokeblock.pokeball": "PokeBall",
+  "item.pokeblock.greatball": "GreatBall",
+  "item.pokeblock.ultraball": "UltraBall",
+  "item.pokeblock.duskball": "DuskBall",
+  "item.pokeblock.cherishball": "CherishBall",
+  "block.pokeblock.pixelgrass": "PixelBlock Grass",
+  "creativemodetab.pokeballs_tab": "PokeBalls",
+  "creativemodetab.pokeblocks_tab": "PokeBlocks"
+}
