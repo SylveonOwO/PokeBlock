@@ -15,6 +15,8 @@ public class ModCreativeModeTab {
   public static CreativeModeTab POKEBALLS_TAB;
     public static CreativeModeTab POKEBLOCKS_TAB;
 
+    public static CreativeModeTab POKEBLOCKMOB_TAB;
+
   @SubscribeEvent
   public static void registerCreativeTabs(CreativeModeTabEvent.Register event) {
       POKEBALLS_TAB = event.registerCreativeModeTab(new ResourceLocation(PokeBlock.MOD_ID, "pokeballs_tab"),
@@ -23,6 +25,9 @@ public class ModCreativeModeTab {
       POKEBLOCKS_TAB = event.registerCreativeModeTab(new ResourceLocation(PokeBlock.MOD_ID, "pokeblocks_tab"),
               builder -> builder.icon(() -> new ItemStack(ModBlocks.PixelGrass.get()))
                       .title(Component.translatable("creativemodetab.pokeblocks_tab")));
+      POKEBLOCKMOB_TAB = event.registerCreativeModeTab(new ResourceLocation(PokeBlock.MOD_ID, "pokeblocksmobs_tab"),
+              builder -> builder.icon(() -> new ItemStack(ModItems.UltraBall.get()))
+                      .title(Component.translatable("creativemodetab.pokeblocksmobs_tab")));
 
   }
 }

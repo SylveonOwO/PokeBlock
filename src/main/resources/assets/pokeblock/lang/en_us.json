@@ -4,7 +4,14 @@
   "item.pokeblock.ultraball": "UltraBall",
   "item.pokeblock.duskball": "DuskBall",
   "item.pokeblock.cherishball": "CherishBall",
+  "item.pokeblock.premierball": "PremierBall",
+  "item.pokeblock.friendball": "FriendBall",
   "block.pokeblock.pixelgrass": "PixelBlock Grass",
   "creativemodetab.pokeballs_tab": "PokeBalls",
-  "creativemodetab.pokeblocks_tab": "PokeBlocks"
+  "creativemodetab.pokeblocks_tab": "PokeBlocks",
+  "creativemodetab.pokeblocksmobs_tab": "PokeBlock's Mobs",
+  "entity.pokeblock.charmander": "Charmander",
+  "item.pokeblock.charmander_spawn_egg": "Charmander Spawn Egg",
+  "subtitles.charmanderfaints": "Charmander Fainted",
+  "subtitles.charmanderliving": "Charmander"
 }

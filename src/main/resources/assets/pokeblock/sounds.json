@@ -1,0 +1,20 @@
+{
+  "charmanderfaints": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "pokeblock:charmanderfaints",
+        "stream": false
+      }
+    ]
+  },
+  "charmanderliving": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "pokeblock:charmander",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -28,6 +28,13 @@ public class ModItems {
     public static final RegistryObject<Item> CherishBall = ITEMS.register("cherishball",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PremierBall = ITEMS.register("premierball",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> FriendBall = ITEMS.register("friendball",
+            () -> new Item(new Item.Properties()));
+
+
 
 
     public static void register(IEventBus eventBus) {

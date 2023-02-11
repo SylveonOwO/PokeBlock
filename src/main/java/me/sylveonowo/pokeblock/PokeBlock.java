@@ -16,6 +16,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import me.sylveonowo.pokeblock.init.TestowoModEntities;
+import me.sylveonowo.pokeblock.init.TestowoModItems;
+import me.sylveonowo.pokeblock.init.TestowoModSounds;
 
 import static net.minecraftforge.registries.ForgeRegistries.ITEMS;
 
@@ -37,6 +40,11 @@ public class PokeBlock
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        TestowoModItems.REGISTRY.register(modEventBus);
+        TestowoModEntities.REGISTRY.register(modEventBus);
+        TestowoModSounds.REGISTRY.register(modEventBus);
+
+
 
 
         // Register the commonSetup method for modloading
@@ -55,10 +63,19 @@ public class PokeBlock
             event.accept(ModItems.PokeBall);
             event.accept(ModItems.GreatBall);
             event.accept(ModItems.UltraBall);
+            event.accept(ModItems.DuskBall);
+             event.accept(ModItems.CherishBall);
+            event.accept(ModItems.PremierBall);
+            event.accept(ModItems.FriendBall);
+
         }
 
         if (event.getTab() == ModCreativeModeTab.POKEBLOCKS_TAB) {
             event.accept(ModBlocks.PixelGrass);
+        }
+
+        if (event.getTab() == ModCreativeModeTab.POKEBLOCKMOB_TAB) {
+            event.accept(TestowoModItems.CHARMANDER);
         }
     }
 
