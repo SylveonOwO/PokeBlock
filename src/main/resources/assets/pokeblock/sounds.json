@@ -16,5 +16,51 @@
         "stream": false
       }
     ]
+  },
+  "bulbasaurliving": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "pokeblock:bulbasaur",
+        "stream": false
+      }
+    ]
+  },
+  "bulbasaurfaints": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "pokeblock:faintbulbasaur",
+        "stream": false
+      }
+    ]
+  },
+  "arceuscry": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "pokeblock:arceus-cry",
+        "stream": false
+      }
+    ]
+  },
+  "eeveecry": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "pokeblock:eeveecry",
+        "stream": false
+      }
+    ]
+  },
+  "pikachucry": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "pokeblock:pikachu",
+        "stream": false
+      }
+    ]
   }
+
 }

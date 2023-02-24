@@ -11,7 +11,20 @@
   "creativemodetab.pokeblocks_tab": "PokeBlocks",
   "creativemodetab.pokeblocksmobs_tab": "PokeBlock's Mobs",
   "entity.pokeblock.charmander": "Charmander",
+  "entity.pokeblock.bulbasaur": "Bulbasaur",
+  "entity.pokeblock.arceus": "Arceus",
+  "entity.pokeblock.eevee": "Eevee",
+  "entity.pokeblock.pikachu": "Pikachu",
+  "item.pokeblock.eevee_spawn_egg": "Eevee Spawn Egg",
+  "item.pokeblock.pikachu_spawn_egg": "Pikachu Spawn Egg",
   "item.pokeblock.charmander_spawn_egg": "Charmander Spawn Egg",
+  "item.pokeblock.bulbasaur_spawn_egg": "Bulbasaur Spawn Egg",
+  "item.pokeblock.arceus_spawn_egg": "Arceus Spawn Egg",
   "subtitles.charmanderfaints": "Charmander Fainted",
-  "subtitles.charmanderliving": "Charmander"
+  "subtitles.charmanderliving": "Charmander",
+  "subtitles.bulbasaurliving": "",
+  "subtitles.bulbasaurfaints": "",
+  "subtitles.pikachucry": "",
+  "subtitles.eeveecry": "",
+  "subtitles.arceuscry": ""
 }

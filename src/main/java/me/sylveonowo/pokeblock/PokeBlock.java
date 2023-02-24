@@ -76,6 +76,10 @@ public class PokeBlock
 
         if (event.getTab() == ModCreativeModeTab.POKEBLOCKMOB_TAB) {
             event.accept(TestowoModItems.CHARMANDER);
+            event.accept(TestowoModItems.BULBASAUR);
+            event.accept(TestowoModItems.ARCEUS);
+            event.accept(TestowoModItems.PIKACHU);
+            event.accept(TestowoModItems.EEVEE);
         }
     }
 

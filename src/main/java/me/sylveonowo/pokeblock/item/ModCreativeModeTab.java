@@ -2,6 +2,7 @@ package me.sylveonowo.pokeblock.item;
 
 import me.sylveonowo.pokeblock.PokeBlock;
 import me.sylveonowo.pokeblock.block.ModBlocks;
+import me.sylveonowo.pokeblock.init.TestowoModItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -26,7 +27,7 @@ public class ModCreativeModeTab {
               builder -> builder.icon(() -> new ItemStack(ModBlocks.PixelGrass.get()))
                       .title(Component.translatable("creativemodetab.pokeblocks_tab")));
       POKEBLOCKMOB_TAB = event.registerCreativeModeTab(new ResourceLocation(PokeBlock.MOD_ID, "pokeblocksmobs_tab"),
-              builder -> builder.icon(() -> new ItemStack(ModItems.UltraBall.get()))
+              builder -> builder.icon(() -> new ItemStack(TestowoModItems.CHARMANDER.get()))
                       .title(Component.translatable("creativemodetab.pokeblocksmobs_tab")));
 
   }
